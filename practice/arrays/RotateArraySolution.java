@@ -1,4 +1,4 @@
-package practice;
+package practice.arrays;
 
 import java.util.Arrays;
 
@@ -27,8 +27,8 @@ public class RotateArraySolution {
   public static void rotate1(int[] nums, int k) {
     k %= nums.length;
     reverse(nums, 0, nums.length - 1);
-    reverse(nums, 0, k - 1);
-    reverse(nums, k, nums.length - 1);
+//    reverse(nums, 0, k - 1);
+//    reverse(nums, k, nums.length - 1);
     System.out.print("Rotated array is -> " + Arrays.toString(nums));
   }
 
