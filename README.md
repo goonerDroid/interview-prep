@@ -603,10 +603,10 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if the size is 1/4 of capacity, resize to half
-    - [ ] Time
+    - [x] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [ ] Space
+    - [x] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
@@ -880,8 +880,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Mergesort: O(n log n) average and worst case
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst-case
-    - For heapsort, see Heap data structure above
-
+    - For heapsort, see 
 - [ ] Not required, but I recommended them:
     - [ ] [Sedgewick - Radix Sorts (6 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/3)
         - [ ] [1. Strings in Java](https://www.coursera.org/learn/algorithms-part2/lecture/vGHvb/strings-in-java)
@@ -1219,8 +1218,8 @@ Graphs can be used to represent many problems in computer science, so this secti
 - [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] How to Get a Job at the Big 4:
-    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
+    - [x] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [x] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
     - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
