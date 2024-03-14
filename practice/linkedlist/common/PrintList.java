@@ -1,8 +1,4 @@
 package practice.linkedlist.common;
-
-import practice.linkedlist.DesignLinkedListSolution.MyLinkedList;
-import practice.linkedlist.LinkedListCycleSolution;
-
 public class PrintList {
 
   public static void printListWithForwardArrow(LinkedListNode head) {
